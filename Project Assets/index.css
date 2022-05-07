@@ -72,3 +72,20 @@ button:hover{
     color: #FAFF00;
     font-size:xx-large;
 }
+
+.change2{
+    color: white;
+    font-size:x-large;
+}
+div.cuthehustle{
+display:inline-block;
+}
+
+button.learnmore{
+    background-color: #000;
+    color: #FAFF00;
+    font-size: small;
+    border: 1px solid 5px;
+      border-top-right-radius: 7px;
+      padding: 10px 10px 10px 15px ;
+}
