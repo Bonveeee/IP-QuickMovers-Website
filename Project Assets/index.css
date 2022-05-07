@@ -89,3 +89,27 @@ button.learnmore{
       border-top-right-radius: 7px;
       padding: 10px 10px 10px 15px ;
 }
+
+.columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1em;
+}
+.columnsfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1em;
+}
+.spanfooter{
+    color: #FAFF00;
+}
+footer{
+    background-color: #000;
+    color: white;
+    margin: 10px;
+    padding: 60px 30px 60px 70px;
+}
+
+.pfooter{
+    font-size: x-large;
+}
