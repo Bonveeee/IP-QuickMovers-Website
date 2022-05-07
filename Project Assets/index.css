@@ -123,6 +123,9 @@ button.learnmore {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em ;
+    margin-left: 70px;
+    padding-left: 15em;
+    padding-bottom: 5em;
 }
 
 .spanfooter {
@@ -144,7 +147,7 @@ footer {
 .fa {
     color: white;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px;
     float: left;
 
 }
