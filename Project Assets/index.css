@@ -3,6 +3,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', 'Actor', 'Adamina';
 }
+
 /*Stlying the main div subsection*/
 .front-main {
     height: 100vh;
@@ -69,6 +70,7 @@ button.Signup {
     display: flex;
     flex-direction: row;
 }
+
 /*Stlying the buttons*/
 button:hover {
     transform: scale(1.3);
@@ -103,6 +105,12 @@ button.learnmore {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
 }
+
+#spantop{
+    text-decoration: overline;
+    text-decoration-color: #a37106;
+}
+
 /*Stlying the footer*/
 .columnsfooter {
     display: grid;
@@ -124,6 +132,7 @@ footer {
 .pfooter {
     font-size: x-large;
 }
+
 /*Stlying the social icons*/
 .fa {
     color: white;
