@@ -150,11 +150,11 @@ button.learnmore2 {
     margin: 40px;
     background-color: rgb(14, 10, 4);
 }
-
 footer {
-    background-color: rgb(14, 10, 4);
+    background-color: #000;
     color: white;
-    margin-left: 50px;
+    margin: 10px;
+    padding: 60px 30px 60px 70px;
 }
 
 .fa {
