@@ -3,10 +3,11 @@
     font-family: 'Poppins', 'Actor', 'Adamina';
 }
 
+/*header*/
 header {
     background-color: rgb(14, 10, 4);
     color: white;
-    display: flex-right;
+    display: flex;
     padding-top: 5px;
     padding-left: 10%;
     padding-right: 5%;
@@ -16,14 +17,15 @@ header {
 
 /*Navigation bar style*/
 
-nav{
-      display: flex;
+nav {
+    display: flex;
     justify-content: right;
     padding-top: 5px;
     padding-left: 5%;
     padding-right: 5%;
     align-items: center;
 }
+
 nav ul li {
     list-style: none;
     display: inline-flex;
@@ -70,7 +72,6 @@ span {
     background-color: white;
 }
 
-}
 
 .house {
     display: grid;
@@ -112,7 +113,7 @@ button.learnmore2 {
 }
 
 .details {
-    background-color: white; 
+    background-color: white;
     border-radius: 1em;
     margin-left: 50px;
 }
@@ -129,7 +130,6 @@ button.learnmore2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1em;
     margin: 50px;
-
 }
 
 .columns2:first-child {
@@ -142,10 +142,21 @@ button.learnmore2 {
 
 .features {
     margin-left: 50px;
+    margin-bottom: 150px;
+}
+
+/*span styling*/
+#spanair {
+    background-color: #FAFF00;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
 }
 
 .listings {
     margin-left: 50px;
+    margin-right: 0px;
+
 }
 
 #spanlist {
@@ -159,6 +170,8 @@ button.learnmore2 {
     margin: 40px;
     background-color: rgb(14, 10, 4);
 }
+
+/*footer sytling */
 footer {
     background-color: #000;
     color: white;
