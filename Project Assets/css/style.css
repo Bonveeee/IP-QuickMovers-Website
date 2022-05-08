@@ -19,6 +19,8 @@ nav ul li {
     list-style: none;
     display: inline-flex;
     padding: 10px 20px;
+    flex-direction: right;
+    justify-content: flex-end;
 
 }
 
@@ -39,6 +41,7 @@ nav ul li a:hover {
     background-color: #FAFF00;
     color: #000;
     padding: 5px 10px;
+    border-top-right-radius: 10px;
 }
 
 .workwithus2 {
@@ -60,36 +63,81 @@ span {
     background-color: white;
 }
 
-.cash {
+.house {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    justify-content: space-between;
+    display: flex;
 }
 
 .submain {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.card {
+    border: 2px solid #cecaca;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+button.learnmore2 {
+    background-color: #000;
+    color: white;
+
+}
+
+.propertyhouselist {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1em;
+    margin-left: 50px;
+
 }
 
 .details {
-    background-color: white border-radius: 1em;
+    background-color: white; 
+    border-radius: 1em;
+    margin-left: 50px;
 }
 
 .columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
-    margin: 20px
+    margin-left: 50px;
 }
 
 .columns2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1em;
-    margin: 20px
+    margin: 50px;
+
 }
 
+.columns2:first-child {
+    margin-right: 20px;
+}
+
+.description {
+    margin-left: 50px;
+}
+
+.features {
+    margin-left: 50px;
+}
+
+.listings {
+    margin-left: 50px;
+}
 
 #spanlist {
     text-decoration: overline;
@@ -100,11 +148,13 @@ span {
 #spanfooter2 {
     color: #FAFF00;
     margin: 40px;
+    background-color: rgb(14, 10, 4);
 }
 
 footer {
     background-color: rgb(14, 10, 4);
     color: white;
+    margin-left: 50px;
 }
 
 .fa {
@@ -117,7 +167,6 @@ footer {
 .fa:hover {
     transform: scale(1.3);
     cursor: crosshair;
-
 }
 
 .columnsfooter {
@@ -125,5 +174,5 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
     margin-left: 70px;
-    padding-left: 15em;
+    padding-left: 10em;
 }
