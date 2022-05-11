@@ -56,12 +56,16 @@ nav ul li a:hover {
 }
 
 .workwithus2 {
+    
     border: none;
     background-color: #FAFF00;
     color: #000;
-    margin: 10px;
-    padding: 15px 15px;
+     padding: 5px 10px;
     border-top-right-radius: 10px;
+    width: 15%;
+    height: 5%;
+    margin-top: 30px;
+   
 }
 
 /*Stlying the button*/
@@ -94,18 +98,31 @@ span {
 
 }
 
-.card {
+.main-card{
     border: 2px solid #cecaca;
+    margin: 1px 1px 1px 5px;
+    height: 400px;
+    width: 300px;
+    
+}
+.card {
+    border: 1px solid #cecaca;
     border-radius: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding-left: 5px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     margin-top: 5px;
+     margin-right: 5px;
+
 }
 
 button.learnmore2 {
     background-color: #000;
     color: white;
-
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
 }
 
 .propertyhouselist {
@@ -172,10 +189,16 @@ button.learnmore2 {
     text-decoration-color: #a37106;
 
 }
+.footer1{
+    display:flex;
+    justify-content: space-between;
+}
+
+
 
 #spanfooter2 {
     color: #FAFF00;
-    margin: 40px;
+    margin: 30px;
     background-color: rgb(14, 10, 4);
 }
 
